@@ -1,6 +1,6 @@
 USE `UniversityDB`;
 
-INSERT INTO `Students` (`FirstName`, `LastName`, `EnrollmentDate`, `Email`)
+INSERT INTO `Students` (`FirstName`, `LastName`, `EnrollmentDate`, `Email`)  -- StudentID is auto-incremented
 VALUES
 ('Alice', 'Smith', '2023-09-01', 'alice.smith@example.com'),
 ('Bob', 'Johnson', '2023-09-01', 'bob.johnson@example.com'),
